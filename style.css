@@ -1,0 +1,63 @@
+.container{
+  background-color: white;
+}
+.row {
+  display: flex;
+  justify-content:space-between;
+  background-color: black;
+}
+.flex {
+  display: flex;
+  justify-content:space-between;
+  background-color: rgb(202, 180, 180);
+  flex-direction:column;
+  
+}
+p{
+  color: white;
+}
+.logo {
+  height: 60px;
+  width: 60px;
+  background-image: none;
+  justify-content:space-evenly;
+}
+.flex-logo{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(240, 230, 230);
+  border-width: 50%;
+  border-color: white;
+
+}
+ img{
+  width: 210px;
+  height: 210px;
+}
+
+h5{
+  color: rgb(17, 17, 16);
+  font-size: 40px;
+}
+button{
+  width: 50px;
+  background-color: #000000;
+  border-radius: 18%;
+  color: rgb(252, 252, 252);
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button:hover{
+    background-color: #f4faf4;
+    color: rgb(3, 3, 3);
+  }
+.card{
+ border-style:ridge;
+ border-color: rgb(70, 67, 67);
+
+}
